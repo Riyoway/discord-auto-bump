@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs and runtime files
+*.log
+logs/
+coverage/
+.nyc_output/
+
+# Build/cache
+dist/
+build/
+.cache/
+.tmp/
+tmp/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local package-manager files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local configuration and state
+config/channels.json
+config/services.json
+data/*.json
+!data/.gitkeep

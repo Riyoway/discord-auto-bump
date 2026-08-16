@@ -1,0 +1,12 @@
+{
+  "Example Service": {
+    "id": "APPLICATION_ID",
+    "commands": {
+      "bump": {
+        "name": "bump",
+        "cooldown": 7200
+      }
+    },
+    "enable": false
+  }
+}
