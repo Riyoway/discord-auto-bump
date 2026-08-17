@@ -1,7 +1,7 @@
 # Auto Bump
 
 <p align="center">
-  <img src="https://badge.教育目的.com/?lang=en&color=blue" alt="Education Purpose Blue" />
+  <img src="https://badge.xn--wcv159acjaj74a.com/?lang=en&color=blue" alt="Education Purpose Blue" />
 </p>
 
 A small Discord bump scheduler with a companion statistics bot.
