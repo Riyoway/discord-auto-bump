@@ -1,15 +1,67 @@
 # Auto Bump
 
-A small Discord bump scheduler with a companion statistics bot. Runtime state and credentials are intentionally excluded from Git.
+<p align="center">
+  <img src="https://badge.教育目的.com/?lang=en&color=blue" alt="Education Purpose Blue" />
+</p>
+
+A small Discord bump scheduler with a companion statistics bot.
+
+Runtime state, credentials, and local configuration are intentionally excluded from Git.
 
 ## Setup
 
-1. Run `npm install`.
-2. Copy `.env.example` to `.env` and add your tokens.
-3. Copy `config/channels.example.json` to `config/channels.json`.
-4. Copy `config/services.example.json` to `config/services.json` and configure the services you use.
-5. Start the statistics bot with `npm start` and the scheduler with `npm run bump`.
+1. Install dependencies:
 
-Runtime history is written to `data/` and is ignored by Git.
+   ```bash
+   npm install
+   ```
 
-> This project uses a self-bot library for the scheduler. Self-bots may violate Discord's Terms of Service.
+2. Copy the environment template:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   Add your required tokens to `.env`.
+
+3. Copy the channel configuration:
+
+   ```bash
+   cp config/channels.example.json config/channels.json
+   ```
+
+4. Copy the service configuration:
+
+   ```bash
+   cp config/services.example.json config/services.json
+   ```
+
+   Configure the services you want to use.
+
+5. Start the statistics bot:
+
+   ```bash
+   npm start
+   ```
+
+6. Start the bump scheduler:
+
+   ```bash
+   npm run bump
+   ```
+
+## Runtime Data
+
+Runtime history is stored in:
+
+```text
+data/
+```
+
+The directory is ignored by Git.
+
+## Disclaimer
+
+> [!WARNING]
+> This project uses a self-bot library for the scheduler.  
+> Self-bots may violate Discord's Terms of Service.
